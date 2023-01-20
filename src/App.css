@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	box-shadow: 0 0 5px 4px lightgray;
+}
+
+.navbar img {
+	width: 82px;
+	height: auto;
+}
+
+.hero-img {
+	margin-top: 25px;
+	display: grid;
+	place-content: center;
+	padding: 2rem;
+}
+
+.hero-desc {
+	width: 50vw;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.hero-desc h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero-desc p {
+	line-height: 1.5;
+}
+
+.hero img {
+	width: 100%;
+	height: auto;
+}
+
+.card-list {
+	margin: 30px;
+	display: flex;
+	gap: 20px;
+	overflow-x: auto;
+}
+
+.card {
+	width: fit-content;
+	height: fit-content;
+	position: relative;
+}
+
+.card img {
+	border-radius: 20px;
+}
+
+.card p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.card-badge {
+	padding-inline: 5px;
+	width: fit-content;
+	height: fit-content;
+	background-color: white;
+	position: absolute;
+	border-radius: 5px;
+	top: 10px;
+	left: 10px;
+}
+
+.gray {
+	color: gray;
+}
+
+.bold {
+	font-weight: 700;
+}
